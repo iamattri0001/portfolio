@@ -68,10 +68,10 @@
                   </div>
                   <div className='flex flex-col flex-1 items-end
                   '>
-                    <a href="#" className='btn w-9 h-9 mb-[42px] flex items-center justify-center'>
+                    <a href="/" className='btn w-9 h-9 mb-[42px] flex items-center justify-center'>
                       <BsArrowUpRight />
                     </a>
-                    <a href="#" className='text-gradient text-sm'>
+                    <a href="/" className='text-gradient text-sm'>
                       {link}
                     </a>
                   </div>

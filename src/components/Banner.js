@@ -52,7 +52,7 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className='flex gap-x-6 max-w-max items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>Contact Me</button>
-            <a href="#" className='text-gradient btn-link'>My Portfolio</a>
+            <a href="/" className='text-gradient btn-link'>My Portfolio</a>
           </motion.div>
 
 
@@ -63,13 +63,13 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
             className='flex text-[24px] gap-x-6 max-w-max mx-auto lg:mx-0 items-center'>
-            <a href="https://github.com/iamattri0001" target={'_blank'}>
+            <a href="https://github.com/iamattri0001" target={'_blank'} rel="noreferrer">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/deepanshu-attri-17a895241/" target={'_blank'}>
+            <a href="https://www.linkedin.com/in/deepanshu-attri-17a895241/" target={'_blank'} rel="noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/iamattri0001/" target={'_blank'}>
+            <a href="https://www.instagram.com/iamattri0001/" target={'_blank'} rel="noreferrer">
               <FaInstagram />
             </a>
           </motion.div>

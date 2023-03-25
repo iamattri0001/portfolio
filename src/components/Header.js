@@ -4,7 +4,7 @@ const Header = () => {
   return <header className='py-8 mb-8'>
     <div className="container mx-auto">
       <div className='flex justify-between items-center'>
-        <a href="">
+        <a href="/">
           <DiCodeigniter className='text-[48px] text-purple-400' />
         </a>
         <button className='btn btn-sm'>Work With me</button>
